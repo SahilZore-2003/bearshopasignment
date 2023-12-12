@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    background-color: black;
+    color: white;
+}
+
+.searchbox{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+
+    svg{
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    input{
+        border: none;
+        padding: 10px 20px;
+        width: 200px;
+        font-size: 1rem;
+
+        &::placeholder{
+            color: black;
+            word-spacing: 2px;
+        }
+
+        &:focus{
+            outline: none;
+        }
+    }
+}
